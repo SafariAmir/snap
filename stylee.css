@@ -4,8 +4,13 @@
     box-sizing: border-box;
     
 }
+@font-face {
+    font-family: "Qatar2022Arabic-Bold";
+    src: url(./Qatar2022Arabic-Bold.ttf);
+}
 body{
     background-color: rgb(241, 232, 232);
+    font-family: "Qatar2022Arabic-Bold";
 }
 header{
     display: flex;
@@ -121,4 +126,57 @@ header{
     border: solid black 1px;
     border-radius: 15px;
     box-sizing: border-box;
+}
+
+               /* main desing */
+main{
+    display: flex;
+    margin: 0 100px;
+}
+.des{
+    display: block;
+    width: 59%;
+    margin-top: 50px;
+
+}
+.des h1{
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: bold;
+
+}
+.des p{
+    color: rgb(68, 63, 63);
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.image{
+    margin-left: 100px;
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    height: 550px;
+}
+.Learn{
+    border: 1px solid black ;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.Learn:hover{
+    border: 1px solid black ;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    transition: .2s;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer img{
+    padding-right: 55px;
 }
