@@ -4,13 +4,13 @@
     box-sizing: border-box;
     
 }
-@font-face {
+/* @font-face {
     font-family: "Qatar2022Arabic-Bold";
     src: url(./Qatar2022Arabic-Bold.ttf);
-}
+} */
 body{
     background-color: rgb(241, 232, 232);
-    font-family: "Qatar2022Arabic-Bold";
+    font-family: sans-serif;
 }
 header{
     display: flex;
@@ -69,6 +69,8 @@ header{
 .drop-parent a{
     margin: 3px;
     color: rgb(68, 63, 63);
+    font-size: small;
+    padding-left: 5px;
 }
 .drop-parent a:hover{
     color: black;
